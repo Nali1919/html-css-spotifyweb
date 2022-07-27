@@ -9,8 +9,12 @@ hr {
     width: 90%;
 }
 
+.space-bet {
+    justify-content: space-between;
+}
+
 .user {
-    margin-top: 150px;
+    margin-top: 140px;
     row-gap: 10px;
 }
 
@@ -65,6 +69,7 @@ aside {
 
 aside img {
     width: 70%;
+    margin-top: 10px;
 }
 
 aside i,
@@ -77,7 +82,23 @@ h4 {
 
 header {
     background-color: hwb(219deg 8% 87%);
+    width: 100%;
+    position: fixed;
     height: 10vh;
+    opacity: 70%;
+}
+
+header button {
+    margin-top: 10px;
+    margin-right: 5px;
+    color: white;
+    background-color: hwb(219deg 8% 87%);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-left: 1025px;
+
+
 }
 
 main {
