@@ -81,11 +81,11 @@ h4 {
 
 
 header {
-    background-color: hwb(219deg 8% 87%);
+    background-color: hsl(222deg 38% 5%);
     width: 100%;
     position: fixed;
     height: 10vh;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 header button {
@@ -102,10 +102,42 @@ header button {
 }
 
 main {
-    background-color: red;
+    background-color: hsl(219deg 26% 11%);
     flex-grow: 1;
+    padding-top: 80px;
 }
 
+main a {
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+}
+
+.link-main {
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.recent {
+    color: white;
+    margin-left: 10px;
+}
+
+.card-container {
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-gap: 10px;
+}
+
+.card {
+    width: calc(100% / 6 - 20px);
+}
+
+.card img {
+    width: 100%;
+}
 
 footer {
     background-color: hsl(0deg 0% 16%);
