@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 
+/* utility */
+hr {
+    width: 90%;
+}
+
+.user {
+    margin-top: 150px;
+    row-gap: 10px;
+}
+
+.icon-spoty {
+    row-gap: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.playlist {
+    margin-top: 5px;
+    row-gap: 10px;
+}
+
+.playlist i {
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
+/* / utility */
+
 /* flex */
 .flex {
     display: flex;
@@ -27,10 +60,24 @@
 aside {
     height: 100vh;
     background-color: hwb(0deg 0% 100%);
+    width: 30vh;
 }
+
+aside img {
+    width: 70%;
+}
+
+aside i,
+span,
+h4 {
+    color: white;
+    opacity: 80%;
+}
+
 
 header {
     background-color: hwb(219deg 8% 87%);
+    height: 10vh;
 }
 
 main {
@@ -42,4 +89,5 @@ main {
 footer {
     background-color: hsl(0deg 0% 16%);
     width: 100%;
+    height: 10vh;
 }
