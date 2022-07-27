@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* / flex */
+
+/* content*/
+.container {
+    height: 100vh;
+}
+
+.header-main {
+    width: 100%;
+}
+
+aside {
+    height: 100vh;
+    background-color: hwb(0deg 0% 100%);
+}
+
+header {
+    background-color: hwb(219deg 8% 87%);
+}
+
+main {
+    background-color: red;
+    flex-grow: 1;
+}
+
+
+footer {
+    background-color: hsl(0deg 0% 16%);
+    width: 100%;
+}
