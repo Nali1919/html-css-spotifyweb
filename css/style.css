@@ -233,6 +233,20 @@ footer {
 
 .card {
     text-align: center;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    color: white;
+    visibility: hidden;
+}
+
+.card:hover .circle {
+    visibility: visible;
 }
 
 .cerchio {
@@ -293,6 +307,15 @@ footer img {
     display: flex;
     column-gap: 5px;
     margin-top: 20%;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    color: yellow
 }
 
 .footerright {
