@@ -177,6 +177,19 @@ header a {
     padding-top: 60px;
 }
 
+.container {
+    display: flex;
+    margin: 20px;
+    column-gap: 15px;
+}
+
+.container h2,
+span {
+    color: white;
+    opacity: 80%;
+    font-size: 10px;
+}
+
 #album-container a {
     text-decoration: none;
     color: white;
@@ -222,8 +235,12 @@ footer {
     text-align: center;
 }
 
-.einaudi {
+.cerchio {
     border-radius: 50%;
+}
+
+.x-1 {
+    display: none;
 }
 
 /* S screen */
@@ -248,12 +265,18 @@ footer {
 }
 
 @media screen and (min-width: 850px) {
-    h2 {
-        color: red;
-    }
+
 
     .colon {
         width: calc(100% / 4 - 10px);
+    }
+
+    .xs-hidden {
+        display: initial;
+    }
+
+    .x-1 {
+        display: initial;
     }
 
     .link-main {
