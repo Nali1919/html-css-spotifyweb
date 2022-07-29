@@ -126,6 +126,12 @@ aside .menu-item span {
     margin-left: 5px;
 }
 
+.line-aside {
+    width: 90%;
+    color: white;
+    opacity: 80%;
+}
+
 .profile-container {
     background-color: #666;
     border-radius: 50%;
@@ -138,6 +144,7 @@ aside .menu-item span {
     width: 20px;
     margin-top: 2px;
 }
+
 
 main {
     flex-grow: 1;
@@ -234,6 +241,10 @@ footer {
     aside img {
         width: 150px;
     }
+
+    .link-main {
+        column-gap: 64px;
+    }
 }
 
 @media screen and (min-width: 850px) {
@@ -244,11 +255,19 @@ footer {
     .colon {
         width: calc(100% / 4 - 10px);
     }
+
+    .link-main {
+        column-gap: 65px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .colon {
         width: calc(100% / 6 - 10px);
+    }
+
+    .link-main {
+        column-gap: 35px;
     }
 
 }
