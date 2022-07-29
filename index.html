@@ -15,17 +15,45 @@
 <body class="debug">
     <div class="web-app">
         <div id="app-container">
-            <aside class="flex column space-bet">
-                <div class="flex column rw-5">
-                    <img class="xs-show" src="img/logo-small.svg" alt="Spotify" />
-                    <img class="xs-hidden" src="img/logo.svg" alt="Spotify" />
-                    <i class="fa-solid fa-house"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-book"></i>
+            <aside class="flex">
+                <div class="flex">
+                    <img class="xs-show m-l5" src="img/logo-small.svg" alt="Spotify" />
+                    <img id="logo" class="xs-hidden" src="img/logo.svg" alt="Spotify" />
+                    <div class="menu-item m-l5">
+                        <img src="img/home.svg" alt="home" />
+                        <span class="xs-hidden">Home</span>
+                    </div>
+                    <div class="menu-item m-l5">
+                        <img src="img/search.svg" alt="search" />
+                        <span class="xs-hidden">Ricerca</span>
+                    </div>
+                    <div class="menu-item m-l5 xs-hidden">
+                        <img src="img/libreria.svg" alt="libreria" />
+                        <span class="xs-hidden">La tua libreria</span>
+                    </div>
+                    <div class="m-l5 xs-hidden">
+                        <h3>Playlist</h3>
+                    </div>
+                    <div class="menu-item m-l5 xs-hidden">
+                        <i class="fa-solid fa-plus xs-hidden"></i>
+                        <span class="xs-hidden"> Crea playlist</span>
+                    </div>
+                    <div class="m-l5 flex column r-g10">
+                        <span class="xs-hidden">Nome Playlist</span>
+                        <span class="xs-hidden">Nome Playlist</span>
+                        <span class="xs-hidden">Nome Playlist</span>
+                        <span class="xs-hidden">Nome Playlist</span>
+                        <span class="xs-hidden">Nome Playlist</span>
+                        <span class="xs-hidden">Nome Playlist</span>
+                    </div>
                 </div>
-                <div class="flex column rw-5">
-                    <i class="fa-solid fa-circle-arrow-down"></i>
-                    <i class="fa-solid fa-user"></i>
+                <div class="flex">
+                    <div class="menu-item">
+                        <div class="profile-container">
+                            <img src="img/profile.svg" alt="profile" />
+                        </div>
+                        <span class="xs-hidden">Profile</span>
+                    </div>
                 </div>
             </aside>
             <main>
@@ -104,14 +132,14 @@
                             </div>
                             <div class="colon">
                                 <div class="card flex column">
-                                    <img src="./img/einaudi.jpeg" alt="">
+                                    <img class="einaudi" src="./img/einaudi.jpeg" alt="">
                                     <h2>Heavy Metal</h2>
                                     <span>Subtitle</span>
                                 </div>
                             </div>
                             <div class="colon">
                                 <div class="card flex column">
-                                    <img src="./img/youg.jpeg" alt="">
+                                    <img class="einaudi" src="./img/youg.jpeg" alt="">
                                     <h2>Heavy Metal</h2>
                                     <span>Subtitle</span>
                                 </div>
